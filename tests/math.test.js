@@ -2,7 +2,7 @@ const { sumar, esPar, capitalizar } = require("../src/math");
 
 describe("Pruebas de funciones", () => {
   test("sumar debe devolver la suma de dos números", () => {
-    expect(sumar(2, 3)).toBe(6);
+    expect(sumar(2, 3)).toBe(5);
   });
 
   test("sumar debe funcionar con números negativos", () => {
